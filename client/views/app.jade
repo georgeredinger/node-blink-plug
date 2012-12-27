@@ -1,0 +1,21 @@
+!!! 5
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    != SocketStream
+    title Blink Plug demo
+  body
+    #content
+      a(href='http://jeelabs.org/')
+        img(src='/images/logo.png', alt='JeeLabs', width='55', height='55')
+      h1 Blink Plug demo
+
+      #demo
+        p#btn1 Button 1
+        p#btn2 Button 2
+        p: label
+          input#led1(type='checkbox',name='b1')
+          | Led 1
+        p: label
+          input#led2(type='checkbox',name='b2')
+          | Led 2

@@ -1,0 +1,15 @@
+{
+  "name": "node-blink-plug",
+  "description": "JeeLabs Blink Plug demo",
+  "version": "0.1.0",
+  "author": "Jean-Claude Wippler <jc@wippler.nl>",
+  "private": true,
+  "engines": { "node": ">= 0.6.0" },
+  "dependencies": {
+    "socketstream": "0.3.x",
+    "ss-coffee": "0.1.x",
+    "ss-jade": "0.1.x",
+    "ss-stylus": "0.1.x",
+    "serialport": "~1.0.8"
+  }
+}
