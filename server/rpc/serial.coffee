@@ -13,7 +13,7 @@ exports.startSerial = (ss) ->
 
 exports.actions = (req, res, ss) ->
     
-  # can be called from the client as: ss.rpc('sendCommand.ACTIONNAME', message)
+  # can be called from the client as: ss.rpc('serial.sendCommand', message)
   sendCommand: (message) ->
     serial.write message  if message
     res true
